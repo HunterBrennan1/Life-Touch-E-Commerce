@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top:75px ;
+}
+
+body.light{
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: var(--background-color);
+  color: var(--text-color) ;
+  font-family:'Poppins', sans-serif; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+header {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  position:fixed;
+  z-index: 9999;
+  width:100%;
+}
+
+.fall-deal-p {
+  padding:10px;
+  margin-bottom: 0px;
+  background-color: #3f98d8;
+  color: #fff;
+  font-weight: 600;
+}
+
+.carousel-item {
+  height:100vh;
+  width:100%;
+}
+
+.carousel-img {
+  object-fit:contain;
+  object-position:left;
+  height:100%;
+  background-color: var(--link-highlight-color);
+  border: var(--link-background-color);
+}
+
+
+
+
