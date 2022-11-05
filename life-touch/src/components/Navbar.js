@@ -3,14 +3,10 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Navbartop() {
   return (
     <header>
-      <div>
-        <p className='fall-deal-p'>Fall Deal! Free Shipping on Orders Over &#36;40</p>
-      </div>
       <Navbar bg="light" expand="lg">
         <Container fluid>
           <div><Navbar.Brand href="#home">LIFE TOUCH</Navbar.Brand></div>
